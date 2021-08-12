@@ -1,0 +1,107 @@
+ body{
+     background: rgb(133, 134, 133);
+ }
+ 
+
+
+ nav{
+      background:rgb(255, 255, 255);  
+      height:3rem;
+      box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+      
+ }
+.nav-center{
+    display: flex;
+    justify-content: space-around;
+
+    align-items:center;
+ }  
+
+
+main{
+    min-height: calc(100vh - 4rem);
+    display: grid;
+    place-items: center;
+}
+.nav-links{
+    display: flex;
+    
+}
+/* main container*/
+.container{
+       text-align: center;
+}
+
+
+.container h2{
+        margin-bottom: 2.5rem;
+        line-height: 2rem;
+}
+
+.color{
+        font-family: monospace;
+        margin-top: 100px;
+}
+.container h2{
+    background:#222;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    font-size:2rem;
+    padding:2rem;
+    border-radius:2rem;
+    font-family: monospace;
+}
+/*buttton*/
+
+.btn-hero{
+    color:white;
+    text-align: center;
+    width:100px;
+    cursor:pointer;
+    display: inline-block;
+    background: transparent;
+    letter-spacing:0.1rem;
+    transition: all 0.3s linear;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    
+    border:2px solid #222;
+    border-radius:0.25rem;
+    font-size:1rem;    
+    font-weight: 800;
+}
+.btn-hero:hover{
+    background: #222;
+}
+
+
+/*General*/
+a{
+	margin-right: 17px;
+	
+}
+li:hover{
+    transform:scale(1.1);
+    transition-duration:1.5s;
+}
+h4, a{
+	font-family: "Poppins", cursive;
+	color:black;
+	font-size: 1.2em;
+	margin:14px;
+}
+
+h4{
+	color:red;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
